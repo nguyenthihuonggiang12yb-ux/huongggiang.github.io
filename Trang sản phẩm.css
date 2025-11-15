@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ /*header*/
+ header{
+  background-color: #1d1e64;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.search-box input {
+  padding: 8px 10px;
+  width: 550px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-nút{
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.search-nút:hover {
+  background-color: #0088cc;
+}
+
+.nav-icons button {
+  background-color: #ddd;
+  border: 1px solid #b93333;
+  border-radius: 6px;
+  padding: 7px 12px;
+  
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.nav-icons button:hover {
+  background-color: rgba(121, 139, 201, 0.2);
+}
+
+
+/*Menu điều hướng*/
+header img {
+  height: 50px;
+  margin-right: 15px;
+}
+
+nav {
+  background-color: #dcd3d3;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+/*menu con*/
+.menu li{
+  width: 100px;
+  line-height: 40px;
+  text-align: center;
+  position:relative;
+}
+.menu li a{
+  color: black;
+  display:block;
+}
+/*ẩn menu2*/
+.menu2{
+  display: none;
+  list-style: none;
+}
+/*hiện menu con*/
+.menu li:hover .menu2{
+  display:block;
+  background-color: #00aaff;
+  position: absolute;
+}
+
+
+/*Noidung*/
+.noidung {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.left {
+  width:50% ;
+}
+
+.ảnhchính {
+  width: 600px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  margin-left: 30px;
+
+}
+
+.ảnhnhỏ {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.ảnhnhỏ img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+
+
+
+.right {
+  width: 50%;
+
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.price .new {
+  font-size: 22px;
+  color: #ee4d2d;
+  font-weight: bold;
+}
+
+.price .old {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.price .discount {
+  color: #fff;
+  background-color: #ee4d2d;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.voucher, .ship, .color-select {
+  margin: 15px 0;
+}
+
+.color-select button {
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: 0.2s;
+}
+
+.color-select button:hover {
+  border-color: #ee4d2d;
+  color: #ee4d2d;
+}
+
+.giohang {
+  background-color: #3861ea;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.giohang:hover {
+  background-color: #072364;
+}
+
+.footer {
+  background-color: #6b6767;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  clear:both;
+  height: 100px;
+  width: 100%;
+}

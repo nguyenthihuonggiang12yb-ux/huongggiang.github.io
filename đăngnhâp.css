@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e5e0df);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px 40px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+.login-tab {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #2f32d2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+.quên {
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  color: #555;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.hoặc {
+  margin: 20px 0;
+  color: #aaa;
+  font-size: 13px;
+  position: relative;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social button {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.facebook {
+  color: #3b5998;
+  border-color: #3b5998;
+}
+
+.google {
+  color: #db4a39;
+  border-color: #db4a39;
+}
+
+.register {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #333;
+}
+
+.register a {
+  color: #ee4d2d;
+  text-decoration: none;
+}

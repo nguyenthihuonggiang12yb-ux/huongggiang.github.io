@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+header{
+  background-color: #1d1e64;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.search-box input {
+  padding: 8px 10px;
+  width: 550px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-nút{
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.search-nút:hover {
+  background-color: #0088cc;
+}
+
+.nav-icons button {
+  background-color: #ddd;
+  border: 1px solid #b93333;
+  border-radius: 6px;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.nav-icons button:hover {
+  background-color: rgba(121, 139, 201, 0.2);
+}
+
+
+
+/*Menu điều hướng*/
+header img {
+  height: 50px;
+  margin-right: 15px;
+}
+
+nav {
+  background-color: #dcd3d3;
+  padding: 10px 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+/*menu con*/
+.menu li{
+  width: 100px;
+  line-height: 40px;
+  text-align: center;
+  position:relative;
+}
+.menu li a{
+  color: black;
+  display:block;
+}
+/*ẩn menu2*/
+.menu2{
+  display: none;
+  list-style: none;
+}
+/*hiện menu con*/
+.menu li:hover .menu2{
+  display:block;
+  background-color: #00aaff;
+  position: absolute;
+}
+
+
+/*noidung*/
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+/*sidebar*/
+aside {
+  width: 25%;
+  background-color: #e7e1e1;
+  padding: 15px;
+  box-shadow: inset -1px 0 0 #ddd;
+}
+
+
+main {
+  width: 75%;
+  padding: 15px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 20px;
+}
+
+
+/*sanpham*/
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 10px 12px;
+}
+
+.title {
+  font-size: 14px;
+  color: #333;
+  height: 38px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  
+}
+
+.price {
+  color: #ee4d2d;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.discount {
+  color: #999;
+  font-size: 13px;
+  margin-left: 5px;
+  text-decoration: line-through;
+}
+
+.sold {
+  font-size: 13px;
+  color: #888;
+}
+
+/*footer*/
+.footer {
+  background-color: #6b6767;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  clear:both;
+  height: 100px;
+  width: 400%;
+}
