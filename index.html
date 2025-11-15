@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<title>Trang chủ </title>
+<link rel="stylesheet" type="text/css" href="/trangchu.css">
+</head>
+
+<body>
+
+<!-- Header với logo -->
+<header>
+    <img src="/ảnh/logo.jpg">
+    <h1>Happy Food</h1>
+
+    <div class="search-box">
+      <input type="text" placeholder="Tìm kiếm...">
+      <button class="search-nút">Tìm Kiếm</button>
+    </div>
+    
+    <div class="nav-icons">
+      <button class="cart">
+       <a href="/giohang.html" style="text-decoration: none; color: black;"> <i>👤</i> Giỏ Hàng
+      </button>
+      <button class="account">
+       <a href="/Đăng nhập.html" style="text-decoration: none; color: black;"> <i>👤</i> Đăng nhập</a> 
+      </button>
+    </div>
+  </header>
+</header>
+
+  <!-- Menu điều hướng -->
+  <nav>
+    <ul class="menu">
+      <li><a href="/Trang chu.html">Trang chủ</a></li>
+      <li><a href="/Giớithieu.html">Giới thiệu</a></li>
+      
+      <li><a href="#">Sản phẩm</a>
+        <ul class="menu2">
+          <li><a href="/Trang sản phẩm.html">Hamburger</a></li>
+          <li><a href="/sanpham2.html">Pizza</a></li>
+          <li><a href="/sanpham3.html">Đồ uống</a></li>
+        </ul>
+      </li>
+
+      <li><a href="/boostrap.html">Liên hệ</a></li>
+    </ul>
+  </nav>
+
+<!-- Nội dung chính và sidebar -->
+  <div class="container">
+<!-- Sidebar -->
+<aside>
+  <h3>Lựa chọn</h3>
+
+  <ul>
+  <li><a href="bug.html" style="text-decoration: none; color: black;"> Nơi bán</a>
+    <ul class="noiban">
+          <li><a href="#"style="text-decoration: none; color: black;">Hà Nội</a></li>
+          <li><a href="#"style="text-decoration: none; color: black;">TP.Hồ Chí Minh</a></li>
+          <li><a href="#"style="text-decoration: none; color: black;">Đà Nẵng</a></li>     
+    </ul>
+  </li>
+  
+  <li><a href="gà.html" style="text-decoration: none;color: black">Đơn vị vận chuyển </a> 
+    <ul class="donvivanchuyen">
+          <li><a href="#"style="text-decoration: none; color: black;">Hoả Tốc</a></li>
+          <li><a href="#"style="text-decoration: none; color: black;">Nhanh</a></li>
+          <li><a href="#"style="text-decoration: none; color: black;">Giao hàng tiết kiệm</a></li>  
+          <li><a href="#"style="text-decoration: none; color: black;">Giao hàng 24/7</a></li>  
+    </ul>    
+  </li>
+
+  <li><a href="pizza.html" style="text-decoration: none;color: black">Dịch vụ & Khuyến mãi</a>
+    <ul class="dichvu">
+          <li><a href="#"style="text-decoration: none; color: black;">Đang giảm giá</a></li>
+          <li><a href="#"style="text-decoration: none; color: black;">Đang có sẵn</a></li>
+          <li><a href="#"style="text-decoration: none; color: black;">Quà tặng kèm</a></li>  
+    </ul>  
+  </li>
+
+  <li><a href="pizza.html" style="text-decoration: none;color: black">Khoảng giá</a>
+    <ul class="dichvu">
+          <li><a href="#"style="text-decoration: none; color: black;">0-100k</a></li>
+          <li><a href="#"style="text-decoration: none; color: black;">50-150k</a></li>
+          <li><a href="#"style="text-decoration: none; color: black;">150-200k</a></li> 
+    </ul>
+  </li>
+  </ul>
+</aside>
+
+<!-- Nội dung chính -->
+  <main>
+  <div class="banner"> <img src="/ảnh/banner.png" width="1000" height="400" alt="ảnh banner"> </div>
+      
+<div class="product-grid">
+<!-- Sản phẩm 1 -->
+  <div class="product-card">
+    <a href="/Trang sản phẩm.html"><img src="/ảnh/bug bò.jpg" alt="Hamburger bò"> </a>
+    <div class="product-info">
+      <p class="title">Hamburger Bò - Vị bò tiêu đen</p>
+      <p class="price">35.000 <span class="discount">-15%</span></p>
+      <p class="sold">Đã bán 10k+</p>
+    </div>
+  </div>
+
+<!-- Sản phẩm 2 -->
+  <div class="product-card">
+    <a href="/Trang sản phẩm.html"><img src="/ảnh/bug gà.jpg" alt="Hamburger gà"> </a>
+    <div class="product-info">
+      <p class="title">Hamburger gà - Vị gà thơm ngon</p>
+      <p class="price">30.000₫ <span class="discount">-40%</span></p>
+      <p class="sold">Đã bán 9,9k+</p>
+    </div>
+  </div>
+
+   <!-- Sản phẩm 3 -->
+    <div class="product-card">
+      <a href="/Trang sản phẩm.html"><img src="/ảnh/bur rau.webp" alt="Hamburger rau"></a>
+      <div class="product-info">
+        <p class="title">Hamburger rau - Rau củ sạch tươi ngon</p>
+        <p class="price">25.000₫ <span class="discount">-50%</span></p>
+        <p class="sold">Đã bán 8k+</p>
+      </div>
+    </div>
+
+<!-- Sản phẩm 4 -->
+  <div class="product-card">
+    <a href="/Trang sản phẩm.html"><img src="/ảnh/bur cá.jpg" alt="Hamburger cá"></a>
+  <div class="product-info">
+    <p class="title">Hamburger cá - Cá giòn rụm</p>
+    <p class="price">35.000₫ <span class="discount">-50%</span></p>
+    <p class="sold">Đã bán 10,3k+</p>
+  </div>
+  </div>
+
+<!-- Sản phẩm 5 -->
+  <div class="product-card">
+      <a href="/sanpham2.html"><img src="/ảnh/pizza hải sản.png" alt="pizza hải sản"></a>
+  <div class="product-info">
+      <p class="title">Pizza Hải sản</p>
+      <p class="price">189.000₫ <span class="discount">-30%</span></p>
+      <p class="sold">Đã bán 15k+</p>
+  </div>
+  </div>
+
+<!-- Sản phẩm 6 -->
+    <div class="product-card">
+      <a href="/sanpham2.html"><img src="/ảnh/pizza nhân thịt thập cẩm.png" alt="pizza nhân thịt thập cẩm"></a>
+      <div class="product-info">
+        <p class="title">Pizza Nhân thịt thập cẩm</p>
+        <p class="price">159.000₫ <span class="discount">-40%</span></p>
+        <p class="sold">Đã bán 16k+</p>
+      </div>
+    </div>
+<!-- Sản phẩm 7 -->
+    <div class="product-card">
+      <a href="/sanpham2.html"><img src="/ảnh/pizza vị truyền thống.png" alt="Pizza truyền thống"></a>
+      <div class="product-info">
+        <p class="title">Pizza vị Truyền thống</p>
+        <p class="price">149.000đ <span class="discount">-50%</span></p>
+        <p class="sold">Đã bán 20k+</p>
+      </div>
+    </div>
+
+<!-- Sản phẩm 8 -->
+    <div class="product-card">
+      <a href="/sanpham2.html"><img src="/ảnh/pizza thanh đạm.png" alt="Pizza thanh đạm"></a>
+      <div class="product-info">
+        <p class="title">Pizza thanh đạm</p>
+        <p class="price">129.000 <span class="discount">-20%</span></p>
+        <p class="sold">Đã bán 11,5k+</p>
+      </div>
+    </div>
+<!-- Sản phẩm 9-->
+    <div class="product-card">
+      <a href="/sanpham3.html"><img src="/ảnh/trà đào.avif" alt="Trà đào"></a>
+      <div class="product-info">
+        <p class="title">Trà Đào</p>
+        <p class="price">20.000đ <span class="discount">-10%</span></p>
+        <p class="sold">Đã bán 12,3k+</p>
+      </div>
+    </div>
+    <!-- Sản phẩm 10-->
+    <div class="product-card">
+      <a href="/sanpham3.html"><img src="/ảnh/trà chanh.avif" alt="trà chanh"></a>
+      <div class="product-info">
+        <p class="title">Trà Chanh</p>
+        <p class="price">20.000₫ <span class="discount">-10%</span></p>
+        <p class="sold">Đã bán 10,3k+</p>
+      </div>
+    </div>
+    <!-- Sản phẩm 11-->
+    <div class="product-card">
+      <a href="/sanpham3.html"><img src="/ảnh/coca.webp" alt="coca"></a>
+      <div class="product-info">
+        <p class="title">CocaCola</p>
+        <p class="price">15.000đ <span class="discount">-15%</span></p>
+        <p class="sold">Đã bán 20,3k+</p>
+      </div>
+    </div>
+    <!-- Sản phẩm 12-->
+    <div class="product-card">
+      <a href="/sanpham3.html"><img src="/ảnh/pesi.webp" alt="Pepsi"></a>
+      <div class="product-info">
+        <p class="title">Pepsi</p>
+        <p class="price">15.000₫ <span class="discount">-15%</span></p>
+        <p class="sold">Đã bán 20,3k+</p>
+      </div>
+    </div>
+
+  
+<!--phan cuoi-->
+<div class="footer"> 524107252-Nguyễn Thị Hương Giang 
+  <br> Email: lienhe@123 | SĐT: 0123 456 789</div>
+</body>
+</html>
